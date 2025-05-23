@@ -24,7 +24,7 @@ app.mount("/static", StaticFiles(directory="./www/static"), name="static")
 templates = Jinja2Templates(directory="./www")
 
 # YouTube API 키 (여기에 실제 API 키 입력)
-YOUTUBE_API_KEY = "AIzaSyCV5hZMVmodWfU12vE_L0Slh02LVjjdZNk"
+YOUTUBE_API_KEY = "YOUR_YOUTUBE_API_KEY_HERE"
 youtube = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
 
 @app.get("/", response_class=HTMLResponse)
