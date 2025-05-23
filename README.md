@@ -13,8 +13,8 @@ YouTube Data API v3를 사용해 동영상을 검색하고 결과를 웹 UI에 �
 - python-multipart: 파일 업로드를 위한 multipart/form-data 요청 처리.
 - google-api-python-client: YouTube Data API 등 Google API 호출.
 - jinja2: 동적 HTML 및 텍스트 포맷팅용 템플릿 엔진
-4. YouTube API 키: Google Cloud Console에서 발급, `app.py`에 설정.
-5. ngrok 설치 및 인증 토큰 설정.
+3. YouTube API 키: Google Cloud Console에서 발급, `app.py`에 설정.
+4. ngrok 설치 및 인증 토큰 설정.
 
 ## 실행
 1. FastAPI: `python app.py`.
